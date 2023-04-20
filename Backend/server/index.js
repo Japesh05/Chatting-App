@@ -69,7 +69,7 @@ io.on('connection', (socket) => {
 
 });
 
-server.listen('http://10.7.25.137', () => {
+server.listen(PORT, () => {
     console.log(`App running on port ${PORT}`);
 });
 
